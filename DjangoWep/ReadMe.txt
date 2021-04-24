@@ -1,11 +1,47 @@
+Git Page 
+https://github.com/mdn/django-locallibrary-tutorial
 
-2021-04-22
-https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/skeleton_website
+@@가상환경 실행하기!!
+cd C:\#Project\GIT\etcProject\DjangoWep\venv\Scripts
+activate.bat
+
+================2021-04-24================
+#####################
+##5. 홈페이지 만들기
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Home_page
+
 
 
 
 #####################
-## 실제 프로젝스 생성
+##4. 관리사이트 생성
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Admin_site
+관리자 생성 및 데이터 관리, 내부 UI, 데이터 바인딩에 대한 내용이 담겨있음
+
+
+관리자를 생성해준다.
+python3 manage.py createsuperuser
+
+kjky12/kjky123@naver.com/!QAZ2wsx
+
+
+
+
+#####################
+##3. 모델 생성
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Models
+
+model파일에 작업하며 소스코드의 정보를 통해 데이터베이스를 생성해줌.
+특징으로는 모델이 바뀔때마다 해줘야함, 정의된 정보로 새로 구조가 구축되기 때문
+
+py manage.py makemigrations
+py manage.py migrate
+
+
+================2021-04-22================
+#####################
+##2. 실제 프로젝스 생성
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/development_environment
 
 1. 실제 사용할 프로젝트 경로 생성
 mkdir django_projects
@@ -35,7 +71,9 @@ python3 manage.py migrate : 데이터베이스에 마이그레이션을 적용�
 py manage.py runserver
 
 #####################
-## 개발환경 셋팅 및 장고 프로젝트 생성테스트
+##1. 개발환경 셋팅 및 장고 프로젝트 생성테스트
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/skeleton_website
+
 1. 장고 설치
 pip3 install django
 
