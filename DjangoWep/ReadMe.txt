@@ -1,6 +1,12 @@
 Git Page 
 https://github.com/mdn/django-locallibrary-tutorial
 
+따라하기
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django
+
+@@참고!!
+https://wikidocs.net/book/837
+
 @@가상환경 실행하기!!
 cd C:\#Project\GIT\etcProject\DjangoWep\venv\Scripts
 activate.bat
