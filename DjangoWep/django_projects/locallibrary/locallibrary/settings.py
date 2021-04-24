@@ -59,6 +59,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [],
+        #APP_DIRS': True -> 응용 프로그램의 하위 디렉터리에서 템플릿을 검색하도록 지시
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

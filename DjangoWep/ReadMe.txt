@@ -7,8 +7,17 @@ activate.bat
 
 ================2021-04-24================
 #####################
+##6. 일반목록 및 상세보기
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Generic_views
+
+
+#####################
 ##5. 홈페이지 만들기
 https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Home_page
+
+1. View를 생성하고 랜더링
+2. HTML, CSS 등의 새로운 페이지 추가 방법을 알려주며
+3. 정적인 디렉토리의 경로 설정을 작성함
 
 
 
